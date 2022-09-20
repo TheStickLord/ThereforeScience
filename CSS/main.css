@@ -1,0 +1,390 @@
+body {
+  background-color: #d7d1cf;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-wrap: break-word;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.testDiv {
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+}
+
+.miniH1 {
+  padding-top: 2rem;
+  font-size: medium;
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.DivFont {
+  padding-top: 1.5%;
+  font-size: small;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: lighter;
+}
+
+.moreButton {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  color: #333333;
+  border-radius: 10px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: ridge;
+  border-color: #d7d1cf;
+  border-width: 0.1rem;
+  background-image: linear-gradient(to bottom right, darkgrey, white);
+  cursor: pointer;
+}
+
+.moreButton:active {
+  background-image: linear-gradient(to bottom right, #333333, grey);
+  color: white;
+}
+
+.TopDiv {
+  background-color: #d7d1cf;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  position: sticky;
+  z-index: 2;
+  margin-left: -1rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  border-bottom: gray;
+  border-bottom-style: solid;
+}
+
+.LOGO {
+  width: auto;
+  height: 90px;
+  margin: 5px;
+  margin-left: 1rem;
+}
+
+.openMenu {
+  position: absolute;
+  top: 5%;
+  left: 85%;
+}
+
+.openMenu1 {
+  position: absolute;
+  top: 5%;
+  left: 84.5%;
+  background-color: #d7d1cf;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.openMenuDiv {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  height: 130%;
+  background-color: white;
+  border-radius: 0.4rem;
+  text-align: center;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.15rem;
+}
+
+.menuButton {
+  margin-top: 1rem;
+  background-color: white;
+  border-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-wrap: break-word;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mainBanner {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../Images/mainPage.jpg");
+  background-color: aquamarine;
+  left: 0;
+  margin: 0;
+  background-size: cover;
+  text-align: center;
+  position: absolute;
+  animation: imageSwapper 50s;
+  animation-iteration-count: infinite;
+  border-bottom: gray;
+  border-bottom-style: solid;
+}
+
+@keyframes imageSwapper {
+  0% {
+    background-image: url("../Images/mainPage.jpg");
+  }
+  10% {
+    background-image: url("../Images/mainPage2.jpg");
+  }
+  20% {
+    background-image: url("../Images/mainPage2.jpg");
+  }
+  30% {
+    background-image: url("../Images/mainPage3.jpg");
+  }
+  40% {
+    background-image: url("../Images/mainPage3.jpg");
+  }
+  50% {
+    background-image: url("../Images/mainPage4.jpg");
+  }
+  60% {
+    background-image: url("../Images/mainPage4.jpg");
+  }
+  70% {
+    background-image: url("../Images/mainPage5.jpg");
+  }
+  80% {
+    background-image: url("../Images/mainPage5.jpg");
+  }
+  90% {
+    background-image: url("../Images/mainPage6.jpg");
+  }
+  95% {
+    background-image: url("../Images/mainPage6.jpg");
+  }
+  100% {
+    background-image: url("../Images/mainPage.jpg");
+  }
+}
+
+.BannerText {
+  color: white;
+  font-size: 45px;
+}
+
+.bannerTextBackground {
+  top: 25%;
+  background-color: black;
+  opacity: 0.5;
+  width: 100%;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.MidDiv {
+  position: relative;
+  width: 100%;
+  margin-left: -0.45rem;
+  padding-left: 0.5rem;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 0.25rem;
+}
+
+.MD1 {
+  margin-top: -6rem;
+  top: 31.7rem;
+  background-color: white;
+  text-align: center;
+}
+
+.MD2 {
+  margin-top: -6rem;
+  top: 38.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+/* History CSS Code */
+
+.mainBannerFounder {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, black, red);
+  position: absolute;
+  width: 100%;
+  margin-left: -1rem;
+  padding-left: 0.5rem;
+  border-bottom: gray;
+  border-bottom-style: solid;
+}
+
+.founderIMG {
+  margin-top: 2rem;
+  left: 65%;
+  border-radius: 5rem;
+  height: 10rem;
+}
+
+.founderFont {
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.HS1 {
+  margin-top: -13.75rem;
+  top: 31.7rem;
+  background-color: white;
+  text-align: center;
+}
+
+/* Products CSS Code */
+
+.mainBannerProducts {
+  text-align: center;
+  background-image: url("../Images/floodGif.gif");
+  position: absolute;
+  background-size: cover;
+  height: 18rem;
+  width: 100%;
+  margin-left: -1rem;
+  padding-left: 0.5rem;
+  border-bottom: gray;
+  border-bottom-style: solid;
+}
+
+.MBTproducts {
+  margin-top: 6rem;
+}
+
+.PD1 {
+  margin-top: 18.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.PD-ButtonHolder {
+  text-align: center;
+}
+
+.PD_B1 {
+  margin-left: auto;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.PD2 {
+  margin-top: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.PD3 {
+  margin-top: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.dropdownFont {
+  padding-left: 2rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.minimizeDD {
+  height: 2.5rem;
+}
+
+.dropdownPD {
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  background-color: grey;
+  margin-bottom: 0.25rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #333333;
+}
+
+.dropDownArrowPD {
+  height: 1.5rem;
+  margin-top: -2rem;
+  margin-left: 40%;
+  position: absolute;
+  rotate: 90deg;
+}
+
+.subdropdownPD {
+  margin-top: 1rem;
+  border-radius: 0.45rem;
+  background-color: white;
+  margin-top: 1rem;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.DDA_RotationAnimation1 {
+  animation: rotateclose 0.5s;
+}
+
+.DDA_RotationAnimation2 {
+  animation: rotateopen 0.5s;
+  rotate: 0deg;
+}
+
+@keyframes rotateclose {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 90deg;
+  }
+}
+
+@keyframes rotateopen {
+  0% {
+    rotate: 90deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+.falseLink {
+  color: blue;
+  padding-bottom: 1rem;
+}
+
+.incorrectH1 {
+  color: red;
+  padding-bottom: 1rem;
+}
+
+.FloodTechLogo {
+  margin-top: 1rem;
+  border-radius: 4rem 1.5rem;
+  width: 50%;
+}
+
+.LogoSizer {
+  margin-top: 1rem;
+  width: 40%;
+}
+
+.linkNoWorky {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+}
+
+.imgTilt {
+  rotate: -3deg;
+}

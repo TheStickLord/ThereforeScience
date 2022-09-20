@@ -1,0 +1,127 @@
+body {
+  background-color: blue;
+}
+
+.btn {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.textbox {
+  font-size: 3rem;
+  height: 5rem;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0.5rem;
+  border-width: 0.2rem;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+  height: auto;
+  margin-top: 10rem;
+  height: 50%;
+}
+
+.topText {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.modal {
+  background-color: white;
+  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1rem;
+  border-style: ridge;
+  box-shadow: 0 1rem 100rem black;
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+.p1 {
+  margin: 5px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.continue {
+  margin-top: 2.5rem;
+  background-color: aqua;
+  animation: fadeIn1;
+  animation-duration: 5s;
+  font-weight: bold;
+}
+
+@keyframes wrong {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+.incorrectBody {
+  animation: wrong 1s;
+}
+
+@keyframes shakeL-R {
+  0% {
+    margin-left: 0rem;
+  }
+  25% {
+    margin-left: 1rem;
+  }
+  50% {
+    margin-left: 0rem;
+  }
+  75% {
+    margin-left: 1rem;
+  }
+  100% {
+    margin-left: 0rem;
+  }
+}
+
+.incorrectText {
+  border-color: red;
+  animation: shakeL-R 1s;
+  color: red;
+}

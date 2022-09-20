@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="icons/locked.png" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LockedPage</title>
+  </head>
+
+  <body>
+    <div class="topText">
+      <h1>∆ Please insert passcode</h1>
+      <p class="p1">(hint: password is "1234")</p>
+    </div>
+
+    <section class="center">
+      <input type="text" class="textbox" />
+      <button class="btn submit">Submit</button>
+    </section>
+
+    <div class="modal hidden">
+      <h1>Warning!</h1>
+      <p>Are you sure you want to continue?</p>
+      <p class="p1">
+        The website you are trying to access has been archived and may contain
+        malicious content.
+      </p>
+      <form action="transition.html">
+        <button class="btn continue">Continue anyway</button>
+      </form>
+    </div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
